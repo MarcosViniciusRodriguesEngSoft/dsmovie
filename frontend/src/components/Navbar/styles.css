@@ -1,0 +1,27 @@
+header{
+    background-color: var(--color-primary); /* Variavel que pega do arquivo index.css*/
+    height: 60px; /* move elemento para cima */
+    display: flex; /* serve para deixar elementos lado a lado*/
+    align-items: center; /* alinha verticalmente ao cento*/
+}
+.dsmovie-nav-content{
+    display: flex; /* serve para deixar elementos lado a lado*/
+    justify-content: space-between; /*distancia elementos um para esquerda e outro para direita*/
+    align-items: center; /* alinha verticalmente ao cento*/
+    color: #fff; /* inserir cor no elemento*/
+}
+/* para alterar configuração de tag's dentro de classes,
+ informar nome da classe e nome da tag que deseja alterar */
+.dsmovie-nav-content h1{
+    margin: 0; /* configura a margem de um elemento*/
+    font-weight: 700; /* confegura a espessura da letra acima de 700 negrito */
+    font-size: 24px; /* configura o tamanho da letra */
+}
+.dsmovie-contact-container{
+    display: flex; /* serve para deixar elementos lado a lado*/
+    align-items: center; /* alinha verticalmente ao cento*/
+}
+.dsmovie-contact-link{
+    margin: 0 0 0 10px; /* peimeiro zero = top / segundo zero = right / terceiro zero = down / quarto zero = left*/
+    font-size: 12px; /* configura o tamanho da letra */
+}
