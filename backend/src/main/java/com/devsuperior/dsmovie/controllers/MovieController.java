@@ -23,8 +23,8 @@ public class MovieController {
 		return service.findAll(pageable);
 	}
 	
-	@GetMapping("/{id}")
+	@GetMapping(value = "/{id}")
 	public MovieDTO findById(@PathVariable Long id){
-		return service.findId(id);
+		return service.findById(id);
 	}
 }

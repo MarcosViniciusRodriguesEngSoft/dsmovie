@@ -12,6 +12,7 @@ import com.devsuperior.dsmovie.repositories.MovieRepository;
 
 @Service
 public class MovieService {
+	
 	@Autowired
 	private MovieRepository repository;
 	
@@ -23,7 +24,7 @@ public class MovieService {
 	}
 	
 	@Transactional(readOnly = true)
-	public MovieDTO findId(Long id){
+	public MovieDTO findById(Long id){
 		Movie result = repository.findById(id).get();
 		MovieDTO dto = new MovieDTO(result);
 		return dto;
