@@ -33,6 +33,13 @@ INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Interestelar', '
 INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Contato', 'https://www.themoviedb.org/t/p/w533_and_h300_bestv2/yFkUPqBuUnbhYbQL8VFpTrAT9za.jpg');
 INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Duna', 'https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jYEW5xZkZk2WTrdbMGAPFuBqbDc.jpg');
 INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Aquaman', 'https://www.themoviedb.org/t/p/w533_and_h300_bestv2/2cUsDz4TzFYHrKktT1bKHHQ7Cgm.jpg');
+INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Peaky Blinders: Sangue, Apostas e Navalhas', 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/i0uajcHH9yogXMfDHpOXexIukG9.jpg');
+INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Star Wars O Livro de Boba Fett', 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/kVelEAAPWMMXCNwsX7YVE8iOlYs.jpg');
+INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Oração Diabólica', 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/9LcOsiSqeR94knLnpJ0ktnOx7OQ.jpg');
+INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Olhos Famintos', 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/4deKiUXWqyATIEKCBSjRxCOLvu0.jpg');
+INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Motoqueiro Fantasma: Espírito de Vingança', 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/dsWqvNyvFj8mWTwZCVMZFgkGTHL.jpg');
+INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Megalodon', 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hES2eVAbVt08JJTqgu3jmI34Yxx.jpg');
+INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Round 6', 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/6gcHdboppvplmBWxvROc96NJnmm.jpg');
 
 INSERT INTO tb_score(movie_id, user_id, value) VALUES (1, 1, 5.0);
 INSERT INTO tb_score(movie_id, user_id, value) VALUES (1, 2, 4.0);
