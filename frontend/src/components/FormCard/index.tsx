@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-import { Link} from 'react-router-dom';
+import { Link, useNavigate} from 'react-router-dom';
 import { Movie } from 'types/movie';
 import { BASE_URL } from 'utils/requests';
 import './style.css';
@@ -9,6 +9,8 @@ type Props = {
     movieId: String;
 }
 function FormCard ( { movieId } : Props) {
+
+    const navigate = useNavigate();
 
     const [movie, setMovie] = useState<Movie>();
 
